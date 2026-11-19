@@ -58,7 +58,7 @@ public:
     //  Setters
     // =========
     void addNo(No no) { nos.push_back(new No(no)); }
-    void addEdge(Aresta edge) { arestas.push_back(new Aresta(edge)); }
+    void addEdge(Aresta aresta) { arestas.push_back(new Aresta(aresta)); }
 };
 
 
@@ -99,9 +99,10 @@ public:
                 num2 += primeira_linha[i];
             }
         }
-
+        
         int nos = stoi(num1);
         int arestas = stoi(num2);
+
         
     }
 
